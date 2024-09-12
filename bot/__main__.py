@@ -214,7 +214,7 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("<b>Maintained By : @Anime_Sensei_Network</b>", quote=True)
+        await message.reply_text("<b>Maintained By : @Anime_Bloodline</b>", quote=True)
   
     @app.on_message(filters.incoming & filters.command(["log", f"log@{BOT_USERNAME}"]))
     async def help_message(app, message):
