@@ -71,7 +71,7 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
     if resolution[0] == "1920x1080":
         kk = re.sub(r'(480p|720p|HDRip)', '1080p', kk)
     
-    out_put_file_name = kk.replace(f".{aa}", "@Ongoing_Sensei].mkv")
+    out_put_file_name = kk.replace(f".{aa}", "@Anime_Bloodline.mkv")
     
     #out_put_file_name = video_file + "_compressed" + ".mkv"
     progress = output_directory + "/" + "progress.txt"
@@ -170,7 +170,7 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
     r = stderr.decode()
     try:
         if er:
-           await message.edit_text(str(er) + "\n\n**ERROR** Contact @Sensei_Rimuru")
+           await message.edit_text(str(er) + "\n\n**ERROR** Contact @RarelySukuna")
            os.remove(videofile)
            os.remove(out_put_file_name)
            return None
