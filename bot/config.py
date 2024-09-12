@@ -4,21 +4,21 @@ class Config(object):
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # AHCompressBot....
     # sucks Dude
-    APP_ID = int(get_config("APP_ID", "26376042"))
-    API_HASH = get_config("API_HASH", "1f5343b0646645ca1eaf7c4759fc248f")
-    LOG_CHANNEL = get_config("LOG_CHANNEL", "ABotLogs")
+    APP_ID = int(get_config("APP_ID", "23902408"))
+    API_HASH = get_config("API_HASH", "6a36a4ef2f07d63aeba7b53b99c64d73")
+    LOG_CHANNEL = get_config("LOG_CHANNEL", "Enclogxx")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
-    AUTH_USERS = get_config("AUTH_USERS", "-1002103913042,2036803347,6691641006")
+    AUTH_USERS = get_config("AUTH_USERS", "-1002217353256, 7179837246, 6199677027")
     AUTH_USERS = [int(user_id) for user_id in AUTH_USERS.split(',')]
     #simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🤣
     # array to store the channel ID who are authorized to use the bot
     # dont u fucking remove this id 😤
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "6716504661:AAHIxJpkdnapwwAkolQFeoScIUcCzsUCWfw")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "6924920834:AAF3HdgQrNurFEjAlyhYut6Q4OAyIaBOHqI")
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = get_config("BOT_USERNAME", "AniCoder_03_Bot")
+    BOT_USERNAME = get_config("BOT_USERNAME", "Linencxbot")
     MAX_FILE_SIZE = 2097152000
     TG_MAX_FILE_SIZE = 2097152000
     FREE_USER_MAX_FILE_SIZE = 2097152000
@@ -30,8 +30,8 @@ class Config(object):
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
     # add config vars for the display progress
-    FINISHED_PROGRESS_STR = get_config("FINISHED_PROGRESS_STR", "█")
-    UN_FINISHED_PROGRESS_STR = get_config("UN_FINISHED_PROGRESS_STR", "▒")
+    FINISHED_PROGRESS_STR = get_config("FINISHED_PROGRESS_STR", "●")
+    UN_FINISHED_PROGRESS_STR = get_config("UN_FINISHED_PROGRESS_STR", "□")
     LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "Log.txt")
       # because, https://t.me/c/1494623325/5603
     SHOULD_USE_BUTTONS = get_config("SHOULD_USE_BUTTONS", False)
